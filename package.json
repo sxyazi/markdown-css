@@ -1,0 +1,24 @@
+{
+  "name": "@chisato/markdown-css",
+  "version": "1.0.0",
+  "description": "A style of markdown in my own uses.",
+  "packageManager": "pnpm@7.9.5",
+  "scripts": {
+    "build": "sass src/styles.sass dist/styles.css --style compressed"
+  },
+  "keywords": [
+    "markdown",
+    "css",
+    "styles"
+  ],
+  "author": "sxyazi <sxyazi@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "sass": "^1.54.5"
+  },
+  "release": {
+    "branches": [
+      "main"
+    ]
+  }
+}
