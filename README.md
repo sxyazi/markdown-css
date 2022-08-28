@@ -11,5 +11,5 @@ pnpm i @chisato/markdown-css
 And then:
 
 ```javascript
-import 'markdown-css/dist/styles.css'
+import '@chisato/markdown-css/dist/styles.css'
 ```

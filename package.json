@@ -4,7 +4,7 @@
   "description": "A style of markdown in my own uses.",
   "packageManager": "pnpm@7.9.5",
   "scripts": {
-    "build": "sass src/styles.sass dist/styles.css --style compressed"
+    "build": "sass src/styles.sass dist/styles.css --style compressed --no-source-map"
   },
   "keywords": [
     "markdown",

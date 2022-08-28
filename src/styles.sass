@@ -3,15 +3,16 @@
 
 	// Link
 	a
+		color: #db2777
 		text-decoration: none
-		color: #059669
+		text-underline-offset: 4px
 
 		&:hover
 			text-decoration: underline
 
 	// Paragraph
 	p
-		line-height: 1.7rem
+		line-height: 1.8rem
 		margin: 1rem 0
 
 	// List
@@ -19,7 +20,7 @@
 		margin-bottom: 1rem
 		margin-top: 1rem
 		padding-left: 1.25rem
-		line-height: 1.7rem
+		line-height: 1.8rem
 
 	ol
 		list-style-type: decimal
@@ -141,13 +142,24 @@
 		font-weight: 500
 
 	blockquote
-		border-left: 8px solid #34d399
+		color: #475569
 		background: #f9fafb
+		position: relative
 		margin: 1rem 0
-		padding: 1.5rem 1.25rem
+		padding: 1.2rem 55px 1.2rem
+		border-left: 8px solid #ec4899
+
+		&::before
+			content: '\201C'
+			font-family: Arial, serif
+			color: #ec4899
+			font-size: 4rem
+			position: absolute
+			top: 0
+			left: 15px
+
+		p
+			margin: 0
 
 		code
 			background: #e5e7eb
-
-		&:last-child
-			margin-bottom: 0
