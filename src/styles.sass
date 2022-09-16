@@ -160,16 +160,15 @@
 		code
 			background: #e5e7eb
 
-.markdown-dark-supported
-	@media (prefers-color-scheme: dark)
-		a
+.markdown-content.dark
+	a
+		color: #f472b6
+	code
+		color: #cbd5e1
+		background: #334155
+	blockquote
+		color: #cbd5e1
+		background: #1e293b
+		border-left-color: #f472b6
+		&::before
 			color: #f472b6
-		code
-			color: #cbd5e1
-			background: #334155
-		blockquote
-			color: #cbd5e1
-			background: #1e293b
-			border-left-color: #f472b6
-			&::before
-				color: #f472b6
