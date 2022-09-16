@@ -1,10 +1,10 @@
 lockfileVersion: 5.4
 
 specifiers:
-  sass: ^1.54.5
+  sass: ^1.54.9
 
 devDependencies:
-  sass: 1.54.5
+  sass: 1.54.9
 
 packages:
 
@@ -110,8 +110,8 @@ packages:
       picomatch: 2.3.1
     dev: true
 
-  /sass/1.54.5:
-    resolution: {integrity: sha512-p7DTOzxkUPa/63FU0R3KApkRHwcVZYC0PLnLm5iyZACyp15qSi32x7zVUhRdABAATmkALqgGrjCJAcWvobmhHw==}
+  /sass/1.54.9:
+    resolution: {integrity: sha512-xb1hjASzEH+0L0WI9oFjqhRi51t/gagWnxLiwUNMltA0Ab6jIDkAacgKiGYKM9Jhy109osM7woEEai6SXeJo5Q==}
     engines: {node: '>=12.0.0'}
     hasBin: true
     dependencies:
