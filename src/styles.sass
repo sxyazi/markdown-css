@@ -41,8 +41,23 @@
 
 	// Image
 	img
-		display: inline-block
+		display: block
 		max-width: 100%
+
+		&[align=left]
+			float: left
+			margin-right: 1rem
+
+		&[align=right]
+			float: right
+			margin-left: 1rem
+
+		&[align=center]
+			margin-left: auto
+			margin-right: auto
+
+		+ pre
+			margin-top: 1rem
 
 	// Heading
 	h1, h2, h3, h4, h5, h6
@@ -114,6 +129,9 @@
 			font-size: inherit
 			tab-size: 2
 
+		+ img
+			margin-top: 1rem
+
 	.line-highlight
 		transform: translateY(2.5px)
 
@@ -160,6 +178,14 @@
 		code
 			background: #e5e7eb
 
+	figcaption
+		color: #94a3b8
+		font-size: 0.75rem
+		line-height: 1rem
+		text-align: center
+		margin-top: 0.5rem
+		margin-bottom: 0.5rem
+
 .markdown-content-dark
 	a
 		color: #f472b6
@@ -176,3 +202,5 @@
 		border-left-color: #f472b6
 		&::before
 			color: #f472b6
+	figcaption
+		color: #64748b
