@@ -3,7 +3,7 @@
 
 	// Link
 	a
-		color: #db2777
+		color: var(--md-accent-600)
 		text-decoration: none
 		text-underline-offset: 4px
 
@@ -97,7 +97,7 @@
 		max-width: 100%
 
 		td, th, tr
-			border: 1px solid #e5e7eb
+			border: 1px solid var(--md-slate-200)
 			padding: 0.375rem 0.875rem
 
 		th
@@ -107,12 +107,12 @@
 				display: none
 
 		tr:nth-child(2n)
-			background: #f9fafb
+			background: var(--md-slate-50)
 
 	// Code
 	code
-		color: #4b5563
-		background: #f3f4f6
+		color: var(--md-slate-600)
+		background: var(--md-slate-100)
 		font-size: 0.85rem
 		border-radius: 3px
 		padding: 0.2em 0.4em
@@ -140,7 +140,7 @@
 
 	// Misc
 	hr
-		background: #e1e4e8
+		background: var(--md-slate-200)
 		border: 0
 		height: 0.25em
 		margin: 24px 0
@@ -156,17 +156,17 @@
 		font-weight: 500
 
 	blockquote
-		color: #475569
-		background: #f9fafb
+		color: var(--md-slate-600)
+		background: var(--md-slate-50)
 		position: relative
 		margin: 1rem 0
 		padding: 1.2rem 55px 1.2rem
-		border-left: 8px solid #ec4899
+		border-left: 8px solid var(--md-accent-500)
 
 		&::before
 			content: '\201C'
 			font-family: Arial, serif
-			color: #ec4899
+			color: var(--md-accent-500)
 			font-size: 4rem
 			position: absolute
 			top: 0
@@ -176,10 +176,10 @@
 			margin: 0
 
 		code
-			background: #e5e7eb
+			background: var(--md-slate-200)
 
 	figcaption
-		color: #94a3b8
+		color: var(--md-slate-400)
 		font-size: 0.75rem
 		line-height: 1rem
 		text-align: center
@@ -188,19 +188,21 @@
 
 .markdown-content-dark
 	a
-		color: #f472b6
+		color: var(--md-accent-400)
 	code
-		color: #cbd5e1
-		background: #334155
+		color: var(--md-slate-300)
+		background: var(--md-slate-700)
 	pre
 		code
 			color: inherit
 			background: inherit
 	blockquote
-		color: #cbd5e1
-		background: #1e293b
-		border-left-color: #f472b6
+		color: var(--md-slate-300)
+		background: var(--md-slate-800)
+		border-left-color: var(--md-accent-400)
 		&::before
-			color: #f472b6
+			color: var(--md-accent-400)
+		code
+			background: var(--md-slate-600)
 	figcaption
-		color: #64748b
+		color: var(--md-slate-500)
