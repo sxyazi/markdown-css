@@ -14,7 +14,7 @@
   "author": "sxyazi <sxyazi@gmail.com>",
   "license": "MIT",
   "devDependencies": {
-    "sass": "^1.56.1"
+    "sass": "^1.57.0"
   },
   "release": {
     "branches": [
